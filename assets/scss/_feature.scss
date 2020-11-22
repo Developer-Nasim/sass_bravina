@@ -1,0 +1,43 @@
+.feature-area{
+    margin: 50px 0;
+    .feature-wrp {
+        display: flex;
+        margin-top: 30px;
+        h5{
+            font-family: $roboto;
+            font-weight: 700;
+        }
+        span {
+            display: block;
+            font-size: 14px;
+            margin-top: 10px;
+            font-weight: 400;
+        }
+        img{
+            position: absolute;   
+            width: 120px;
+            height: 100px;
+            top: 40px;
+        }
+    }
+    .feature-wrp.text-right {
+        padding-right: 150px;
+        @media #{$xs} {
+            padding-right: 100px;
+        }
+        img {
+            right: 25px;
+        }
+    }
+    .feature-wrp.text-left.right-side {
+        padding-left: 150px;
+        @media #{$xs} {
+            padding-left: 100px;
+        }
+        img {
+            left: 25px;
+        }
+    }
+} 
+
+ 

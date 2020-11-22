@@ -1,0 +1,32 @@
+.hero-area {
+    height: 880px;
+    display: flex;
+    align-items: center;
+    background: url(../img/hero-bac.jpg);
+    background-size: cover;
+    background-position: center;
+    @media #{$xs} {
+        height: auto;
+    }
+    .hero-wrp {
+        margin-top: 420px;
+        @media #{$xs} {
+           margin-top: 100px;
+        }
+        h1 {
+            color: $white;
+            font-size: 56px;
+            line-height: 55px;
+            @media #{$xs} {
+               font-size:22px;
+               line-height: 25px;
+            }
+          }
+          
+      }
+
+  }
+
+//   hero-area css END
+
+

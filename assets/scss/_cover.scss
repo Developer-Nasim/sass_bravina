@@ -1,0 +1,22 @@
+.cover-area {
+    .cover-text {
+        margin: 50px 0;
+        margin-bottom: 25px;
+        h3{
+          font-family: $roboto;
+          font-weight: 300;
+          @media #{$xs} {
+            font-size: 16px;
+          }
+        }
+      }
+      img{
+        width: 100%;
+        @media #{$xs} {
+          height: 300px;
+          object-fit: cover;
+        }
+      }
+  }
+
+//   cover css END

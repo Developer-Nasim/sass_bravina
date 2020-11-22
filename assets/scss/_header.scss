@@ -1,0 +1,22 @@
+.header-area{
+    background: $white;
+    position: relative;
+    height: 30px;
+    a {
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        transform: translate(-50%);
+        width: 300px;
+        img{
+          @media #{$xs} {
+            height: 100px;
+          }
+        }
+      }
+}
+
+
+// header-area css END
+
+

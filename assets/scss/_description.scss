@@ -1,0 +1,75 @@
+
+.description-area {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background: url(../img/pattern-bac.jpg);
+    background-size: cover;
+    background-position: center left;
+    position: relative;
+    z-index: 2;
+    @media #{$lg} {
+        background-size: 100% 100%;
+       } 
+       @media #{$md} {
+           height: auto;
+           padding: 100px 0;
+           position: relative;
+
+        } 
+        @media #{$xs} {
+            height: auto;
+            padding: 50px 0;
+            position: relative;
+ 
+         } 
+
+    .description-wrp {
+        h2{
+            color: $white;
+            font-family: $roboto;
+            font-weight: 300;
+            @media #{$xs} {
+                font-size: 26px;
+            }
+        }
+      }
+      
+  }
+@media #{$md}{
+    .description-area:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #460000d6;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+}
+@media #{$xs}{
+    .description-area:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #460000d6;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+}
+@media #{$sm}{
+    .description-area:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #460000d6;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+}
+/* Description-area css END */
